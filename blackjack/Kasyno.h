@@ -2,16 +2,19 @@
 #include "Karta.h"
 #include "Gracz.h"
 #include <cstdlib>
+#include <vector>
 class Kasyno {
 
 	int talia=-1;
 	Karta karty[52];
-	Gracz gracze[2];
+	vector<Gracz> gracze{ Gracz(), Gracz() };
+
 public:
 	Kasyno();
 	void Przetasuj();
 	Karta* dajKarte();
 	void graj();
-
+	Gracz winner();
+	void playagain();
 
 };

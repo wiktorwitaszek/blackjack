@@ -1,0 +1,3 @@
+﻿  Kasyno.cpp
+C:\Users\MrKow\OneDrive - Politechnika Wroclawska\blackjack\blackjack\Kasyno.cpp(30,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  blackjack.vcxproj -> C:\Users\MrKow\OneDrive - Politechnika Wroclawska\blackjack\x64\Debug\blackjack.exe
